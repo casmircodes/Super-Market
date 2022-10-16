@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  } 
+  
+  a{
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: #ffc107;
+  }
+  
+  .cont{
+   /* background-color:  rgba(0, 0, 0, 0.666) ;*/
+    position: absolute;
+    top: 0%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+  }
+  
+  #ico{
+    width: 30px;
+    height: 30px;  
+    
+  }
+  
+  .cont h1{
+    font-size: 4.5vw;
+    text-align: center;
+    text-transform: uppercase;
+    
+  }
+  
+  #sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  #sec1-inner-container{
+    position: relative;
+  
+  }
+  
+  #sec1-toggle{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /*border: 2px solid blue;*/
+    width: 100%;
+    
+    
+  }
+  
+  #ad{
+    font-size:2vw;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blueviolet;
+    background: #ffc107;
+    color: white;
+  }
+  
+  #today{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    color: black;
+    border: 2px solid blueviolet;
+  }
+  
+  
+  #adshop{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #p2img{
+    transition: width 2s, height 2s, transform 1s;
+    
+  }
+  
+  #p3img{
+    transition: width 2s, height 2s, transform 1s;
+  }
+  
+  
+  #p4img{
+    transition: width 2s, height 2s, transform 1s;
+  }
+  
+  #p111img{
+    transition: width 2s, height 2s, transform 1s;
+  }
+  
+  #p2img:hover{
+    transform: scale(1.1, 1.1);
+  }
+  
+  #p3img:hover{
+    transform: scale(1.1, 1.1);
+  }
+  
+  #p4img:hover{
+    transform: scale(1.1, 1.1);
+  }
+  
+  #p111img:hover{
+    transform: scale(1.1, 1.1);
+  }
+  
+  #brandstore-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  
+  .lorem-phone-height{
+    height:100px;
+  }
+  
+  .underline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .underline::after {
+    content: "";
+    background: #3399cc;
+    width: 10vw;
+    height: 3px;
+    display: block;
+    margin-top: 20px;
+    
+  }
+  
+  .t-color{
+    color: #999;
+  }
+  
+  
+  .bullet{
+  list-style: none;
+  }
+  
+  .bullet::before{
+  content: "\2022";
+  color: #ffc107;
+  font-weight: bolder;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+      .cont h1{
+    font-size: 5vh;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  #top-selling{
+   font-size:5.5vw;
+    font-weight: bold;
+  }
+  
+  #ad{
+    width: 50%;
+    font-size: 0.8em;
+  }
+  
+  #today{
+    width: 50%;
+    font-size: 0.8em;
+  }
+  
+  .lorem-phone-height{
+  height: 50px;
+  }
+  
+  .mobile-footer-pad{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .underline::after {
+    height: 2px;
+  }
+  
+  }
+  
